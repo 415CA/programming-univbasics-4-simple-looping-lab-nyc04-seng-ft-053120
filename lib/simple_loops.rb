@@ -14,3 +14,7 @@ end
 def output_array(array)
     array.each { |element| puts element }
 end
+
+def return_string_array(array)
+  array = array.each { |element| element.to_s }
+end
