@@ -13,6 +13,6 @@ end
 
 def output_array(string, number)
   number.times do
-    puts string
+    string
   end
 end
