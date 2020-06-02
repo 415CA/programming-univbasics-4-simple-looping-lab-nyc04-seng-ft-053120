@@ -12,5 +12,7 @@ def loop_message_n_times(string, number)
 end
 
 def output_array(array, number)
-  array.each { |element| number.times puts element }
+  number.times do
+    array.each { |element| puts element }
+  end
 end
